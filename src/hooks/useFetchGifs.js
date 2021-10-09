@@ -18,11 +18,10 @@ export const useFetchGif = ( category ) => {
                             data:img,
                             loading: false
                         } )
-                        
+
                     })
     },[category])
 
-
-
     return state;
 }
+
