@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
-import { getGifs } from "../helpers/getGifs";
+import { useState } from 'react';
+import { useEffect } from 'react/cjs/react.development';
+import { getGifs } from '../helpers/getGifs';
 
 
 export const useFetchGif = ( category ) => {
@@ -25,3 +25,4 @@ export const useFetchGif = ( category ) => {
     return state;
 }
 
+// git remote set-url origin https://github.com/jona0812/react-gifeexpertapp.git
